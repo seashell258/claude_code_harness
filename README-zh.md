@@ -1,6 +1,6 @@
 # Learn Claude Code -- 真正的 Agent Harness 工程
 
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
+[English](./README.md) | [中文](./README-zh.md)
 
 ## Agency 来自模型，Agent 产品 = 模型 + Harness
 
@@ -383,7 +383,6 @@ flowchart TD
 s08_context_compact/
   README.md              # 英文，默认章节 README
   README.zh.md           # 中文译本
-  README.ja.md           # 日文译本
   code.py                # 独立可运行的实现
   images/                # SVG 图示（需要时）
 ```
@@ -401,7 +400,6 @@ learn-claude-code/
   s01_agent_loop/          # 每章一个文件夹
     README.md              #   默认英文文档（完整叙事）
     README.zh.md           #   中文译本
-    README.ja.md           #   日文译本
     code.py                #   独立可运行代码
     images/                #   SVG 流程图
   s02_tool_use/

@@ -1,4 +1,4 @@
-[English](./README.md) | [中文](./README-zh.md) | [日本語](./README-ja.md)
+[English](./README.md) | [中文](./README-zh.md)
 
 <a href="https://trendshift.io/repositories/19746" target="_blank"><img src="https://trendshift.io/api/badge/repositories/19746" alt="shareAI-lab%2Flearn-claude-code | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -330,7 +330,6 @@ Each chapter is a folder. Open one and you will find:
 s08_context_compact/
   README.md              # English, the default chapter README
   README.zh.md           # Chinese translation
-  README.ja.md           # Japanese translation
   code.py                # standalone runnable implementation
   images/                # SVG diagrams (where needed)
 ```
@@ -381,7 +380,6 @@ learn-claude-code/
   s01_agent_loop/          # one folder per chapter
     README.md              #   English default (complete narrative)
     README.zh.md           #   Chinese translation
-    README.ja.md           #   Japanese translation
     code.py                #   standalone runnable code
     images/                #   SVG diagrams
   s02_tool_use/

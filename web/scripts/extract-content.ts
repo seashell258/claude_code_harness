@@ -241,7 +241,7 @@ function rewriteChapterMarkdown(
   let next = content;
 
   next = next.replace(
-    /^\[English\]\(README\.md\)\s*.\s*\[中文\]\(README\.zh\.md\)\s*.\s*\[日本語\]\(README\.ja\.md\)\n\n?/m,
+    /^\[English\]\(README\.md\)\s*.\s*\[中文\]\(README\.zh\.md\)\n\n?/m,
     ""
   );
 
