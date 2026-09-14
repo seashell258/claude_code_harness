@@ -274,7 +274,7 @@ def run_subagent(prompt: str) -> str:
     for _ in range(30):
         response = client.messages.create(
             model=MODEL,
-            system=SUB_SYSTEM,
+            system=SUB_SYSTEM, //system propmt 這樣subagent就看的到 而且權重高一些
             messages=messages,
             tools=SUB_TOOLS,
             max_tokens=8000,
