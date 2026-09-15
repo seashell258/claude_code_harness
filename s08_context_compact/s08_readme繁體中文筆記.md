@@ -46,3 +46,9 @@ Prompt caching 的前提是訊息的開頭部分不變。第三步 clear 改寫�
 第三步不行。 沒有 100% context window 的 hook 、也沒有 clear at least 可以實作。
 
 第四步可以  就是 /compact 指令。  盡量在 /compact 後面明講自己要下一步的任務是甚麼 所以需要保留的歷史可能包含哪些，讓效果更好。 
+
+
+## 延伸思考
+把整個對話歷史讀出來，進行 append，整個改掉對話歷史(append不破壞thinking)。 然後 /clear 之後整個重送
+
+這樣的介入也是一種與claude code cli 相容的 harness。 就是不知道 append 什麼能提供真實的價值。 
